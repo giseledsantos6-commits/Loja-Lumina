@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Produtos - Loja Lumina{% endblock %}
+
+{% block content %}
+<section class="catalog-section">
+    <h2>Nosso Catálogo</h2>
+    <div class="product-grid">
+        {% for produto in produtos %}
+        <div class="product-card">
+            <img src="{{ url_for('static', filename='img/produtos/' + produto.imagem) }}" alt="{{ produto.nome }}" class="product-img">
+            <h3>{{ produto.nome }}</h3>
+            <p class="description">{{ produto.descricao }}</p>
+            <p class="price">R$ {{ "%.2f"|format(produto.preco) }}</p>
+            <button class="btn add-to-cart" data-id="{{ produto.id }}" data-nome="{{ produto.nome }}">Adicionar ao Carrinho</button>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
