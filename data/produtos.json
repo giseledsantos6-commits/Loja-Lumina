@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nome": "Luminária Aurora",
+    "descricao": "Luminária de mesa com cúpula de linho e luz quente.",
+    "preco": 129.90,
+    "imagem": "img/produtos/aurora.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Pendente Nébula",
+    "descricao": "Pendente de vidro fumê, ideal para mesas de jantar.",
+    "preco": 289.00,
+    "imagem": "img/produtos/nebula.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Abajur Lua Cheia",
+    "descricao": "Abajur esférico com difusor opalino e base de madeira.",
+    "preco": 159.50,
+    "imagem": "img/produtos/lua-cheia.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Arandela Solaris",
+    "descricao": "Arandela de parede em metal dourado com acabamento escovado.",
+    "preco": 99.90,
+    "imagem": "img/produtos/solaris.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Plafon Vitória",
+    "descricao": "Plafon de LED redondo com luz neutra e baixo consumo.",
+    "preco": 179.00,
+    "imagem": "img/produtos/vitoria.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Luminária de Piso Horizonte",
+    "descricao": "Luminária de piso articulada, perfeita para leitura.",
+    "preco": 349.90,
+    "imagem": "img/produtos/horizonte.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Fita de LED Cintilla 5m",
+    "descricao": "Fita de LED com controle remoto e 16 cores.",
+    "preco": 69.90,
+    "imagem": "img/produtos/cintilla.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Lustre Cristal Brisa",
+    "descricao": "Lustre com pingentes de acrílico transparente para sala de estar.",
+    "preco": 599.00,
+    "imagem": "img/produtos/brisa.jpg"
+  }
+]
